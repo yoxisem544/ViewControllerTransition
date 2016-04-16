@@ -14,6 +14,9 @@
 		635E694D1CC1D80300C67689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635E694B1CC1D80300C67689 /* LaunchScreen.storyboard */; };
 		635E69581CC1D80300C67689 /* ViewControllerTransitioningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69571CC1D80300C67689 /* ViewControllerTransitioningTests.swift */; };
 		635E69631CC1D80300C67689 /* ViewControllerTransitioningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69621CC1D80300C67689 /* ViewControllerTransitioningUITests.swift */; };
+		635E69711CC1D83300C67689 /* TestTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69701CC1D83300C67689 /* TestTransitionViewController.swift */; };
+		635E69741CC212C500C67689 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69731CC212C500C67689 /* DetailViewController.swift */; };
+		635E69761CC2153900C67689 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635E69751CC2153900C67689 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		635E695E1CC1D80300C67689 /* ViewControllerTransitioningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerTransitioningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		635E69621CC1D80300C67689 /* ViewControllerTransitioningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTransitioningUITests.swift; sourceTree = "<group>"; };
 		635E69641CC1D80300C67689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635E69701CC1D83300C67689 /* TestTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTransitionViewController.swift; sourceTree = "<group>"; };
+		635E69731CC212C500C67689 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		635E69751CC2153900C67689 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 420_135a8cdf96ee535afd31b15e602347b2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 			children = (
 				635E69421CC1D80300C67689 /* AppDelegate.swift */,
 				635E69441CC1D80300C67689 /* ViewController.swift */,
+				635E69731CC212C500C67689 /* DetailViewController.swift */,
+				635E69701CC1D83300C67689 /* TestTransitionViewController.swift */,
 				635E69461CC1D80300C67689 /* Main.storyboard */,
 				635E69491CC1D80300C67689 /* Assets.xcassets */,
 				635E694B1CC1D80300C67689 /* LaunchScreen.storyboard */,
+				635E69751CC2153900C67689 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg */,
 				635E694E1CC1D80300C67689 /* Info.plist */,
 			);
 			path = ViewControllerTransitioning;
@@ -232,6 +241,7 @@
 				635E694D1CC1D80300C67689 /* LaunchScreen.storyboard in Resources */,
 				635E694A1CC1D80300C67689 /* Assets.xcassets in Resources */,
 				635E69481CC1D80300C67689 /* Main.storyboard in Resources */,
+				635E69761CC2153900C67689 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +268,8 @@
 			files = (
 				635E69451CC1D80300C67689 /* ViewController.swift in Sources */,
 				635E69431CC1D80300C67689 /* AppDelegate.swift in Sources */,
+				635E69711CC1D83300C67689 /* TestTransitionViewController.swift in Sources */,
+				635E69741CC212C500C67689 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
